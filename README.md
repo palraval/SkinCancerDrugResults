@@ -1,5 +1,7 @@
 # SkinCancerDrugResults
 
+
+
 ## Data Cleaning, Filtering, & Plotting 
 The two data files ("Mouse_metadata.csv" and "Study_results.csv") are merged to provide a single dataframe consisting of the
 columns: "Mouse ID", "Timepoint", "Tumor Volume (mm3)", "Metastatic Sites", "Drug Regimen", "Sex", "Age_months", and Weight(g). The number of unique mice in the merged dataframe are counted according to the Mouse_ID column. After this, the unique values of "Mouse_ID" are found if they contain duplicate values for "Mouse_ID" and "Timepoint". The "Mouse_ID" that is located is then removed from the merged dataframe.  
